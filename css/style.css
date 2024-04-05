@@ -1,0 +1,96 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: #04043E;
+}
+
+.container-fluid{
+    background-color: #04043E;
+}
+
+main{
+    color:white;
+}
+
+
+/*nav*/
+
+.navbar-logo {
+    width: auto; 
+    height: auto; 
+    max-height: 100px;; 
+}
+
+.navbar-expand-md{
+    background-color: #04043E;
+    font-family: 'Rambla', sans-serif;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-toggler {
+    color: #536FFF; 
+}
+
+.navbar-toggler-icon {
+    background-color: #536FFF; 
+}
+
+
+.navbar-nav .nav-link:hover {
+    color: #536FFF; 
+}
+.navbar-nav .nav-link {
+    font-size: 1.5vw; 
+}
+
+.navbar-nav .nav-item {
+    margin-right: 50px;
+}
+
+@media (max-width: 768px) {
+    .navbar-nav .nav-link {
+        font-size: 4vw; 
+    }
+}
+
+/*fonts*/ 
+
+.rambla-regular {
+    font-family: "Rambla", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.active:hover,
+.navbar-nav .nav-link.active:visited {
+    color: #536FFF; /* Set the color of the active link */
+}
+
+.grey{
+    color:#B4B4B4
+}
+
+/* main */
+
+.icon {
+    width: 50px; 
+    height: auto; /* Maintain aspect ratio */
+}
+
+.full-height{
+    height:100vh;
+}
+/* about */
+.col-12.col-md-4 .row {
+    text-align: center;
+}
+
+.aboutIcon {
+    width: 10%;
+    height: auto;
+}
